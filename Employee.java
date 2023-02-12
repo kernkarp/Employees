@@ -85,7 +85,7 @@ public class Employee implements Serializable {
         return nextId;
     }
 
-    public void raiseSalary (double p) {
+    public void raiseSalary(double p) {
         salary += salary * (p/100);
     }
 

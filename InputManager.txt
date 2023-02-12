@@ -1,4 +1,9 @@
 Man1Name
 Man1Surname
-34562
-123
+34562.0
+123.0
+
+NewManager
+NewManager
+20000.0
+2000.0

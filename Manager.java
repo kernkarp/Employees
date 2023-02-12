@@ -15,6 +15,10 @@ public class Manager extends Employee implements Serializable {
         return super.getSalary() + bonus;
     }
 
+    public double getBonus() {
+        return bonus;
+    }
+
     public void setBonus(double bonus) {
         if (bonus < 0)
             throw new IllegalArgumentException("Error: Manager bonus incorrect value");
